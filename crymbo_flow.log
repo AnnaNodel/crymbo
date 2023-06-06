@@ -1,0 +1,1279 @@
+2023-04-23 09:05:45,211 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-04-23 09:05:45,755 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-04-23 09:05:45,758 - INFO - Successfully logged in to Wallter!
+2023-04-23 09:05:45,761 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-04-23 09:05:46,145 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-04-23 09:05:46,146 - INFO - Successfully redirected to Crymbo!
+2023-04-23 09:05:46,146 - INFO - c370d896-b70a-4cc7-bf23-d709054fdb47
+2023-04-23 09:05:46,451 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-04-23 09:05:46,451 - INFO - Successfully logged in to Crymbo!
+2023-04-23 09:05:48,100 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-23 09:05:48,101 - INFO - Transaction is created
+2023-04-23 09:05:48,101 - INFO - X46dBYRoNb79
+2023-04-23 09:05:48,475 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/cancel-payment HTTP/1.1" 200 None
+2023-04-23 09:05:48,475 - INFO - Transaction is canceled!
+2023-04-23 09:05:48,475 - INFO - CANCELED
+2023-04-23 09:05:50,124 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 16
+2023-04-23 09:05:50,125 - INFO - Duplicate transaction
+2023-04-23 09:10:39,107 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-04-23 09:10:39,517 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-04-23 09:10:39,519 - INFO - Successfully logged in to Wallter!
+2023-04-23 09:10:39,520 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-04-23 09:10:39,833 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-04-23 09:10:39,834 - INFO - Successfully redirected to Crymbo!
+2023-04-23 09:10:39,834 - INFO - f200dfe5-9095-400c-aef2-876378d7c14c
+2023-04-23 09:10:40,129 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-04-23 09:10:40,129 - INFO - Successfully logged in to Crymbo!
+2023-04-23 09:10:41,908 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-23 09:10:41,909 - INFO - Transaction is created
+2023-04-23 09:10:41,909 - INFO - oBDbDVJNqel2
+2023-04-23 09:10:42,280 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/cancel-payment HTTP/1.1" 200 None
+2023-04-23 09:10:42,280 - INFO - Transaction is canceled!
+2023-04-23 09:10:42,280 - INFO - CANCELED
+2023-04-23 09:10:43,965 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-23 09:10:43,966 - INFO - Transaction is created
+2023-04-23 09:10:43,966 - INFO - K4oeEV6O0a0B
+2023-04-23 09:10:44,337 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/cancel-payment HTTP/1.1" 200 None
+2023-04-23 09:10:44,339 - INFO - Transaction is canceled!
+2023-04-23 09:10:44,339 - INFO - CANCELED
+2023-04-23 09:58:46,314 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-04-23 09:58:46,759 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-04-23 09:58:46,766 - INFO - Successfully logged in to Wallter!
+2023-04-23 09:58:46,769 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-04-23 09:58:47,148 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-04-23 09:58:47,149 - INFO - Successfully redirected to Crymbo!
+2023-04-23 09:58:47,149 - INFO - 1cb74ce4-8520-4918-962e-96fd3ed73e10
+2023-04-23 09:58:47,451 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-04-23 09:58:47,452 - INFO - Successfully logged in to Crymbo!
+2023-04-23 09:58:49,210 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-23 09:58:49,210 - INFO - Transaction is created
+2023-04-23 09:58:49,210 - INFO - 7N1aMV5D5bWm
+2023-04-23 09:58:50,140 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-04-23 09:58:50,141 - INFO - Transaction is completed!
+2023-04-23 09:58:50,141 - INFO - OK00
+2023-04-23 09:58:50,142 - INFO - 1.4362815233423927
+2023-04-23 09:58:51,911 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-23 09:58:51,912 - INFO - Transaction is created
+2023-04-23 09:58:51,912 - INFO - z3YaO05lLbxq
+2023-04-23 09:58:51,913 - INFO - -0.3276008787517899
+2023-04-23 09:58:52,839 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-04-23 09:58:52,839 - INFO - Transaction is completed!
+2023-04-23 09:58:52,839 - INFO - OK00
+2023-04-23 10:00:30,122 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-04-23 10:00:30,625 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-04-23 10:00:30,628 - INFO - Successfully logged in to Wallter!
+2023-04-23 10:00:30,630 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-04-23 10:00:30,936 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-04-23 10:00:30,936 - INFO - Successfully redirected to Crymbo!
+2023-04-23 10:00:30,936 - INFO - 135f9407-92c7-4507-be11-06e2ed7fe3e2
+2023-04-23 10:00:31,280 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-04-23 10:00:31,281 - INFO - Successfully logged in to Crymbo!
+2023-04-23 10:00:33,056 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-23 10:00:33,056 - INFO - Transaction is created
+2023-04-23 10:00:33,056 - INFO - LYqaQ85JLenj
+2023-04-23 10:00:33,422 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/cancel-payment HTTP/1.1" 200 None
+2023-04-23 10:00:33,423 - INFO - Transaction is canceled!
+2023-04-23 10:00:33,424 - INFO - CANCELED
+2023-04-23 10:00:35,085 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-23 10:00:35,086 - INFO - Transaction is created
+2023-04-23 10:00:35,086 - INFO - JAPdRV5YKdGy
+2023-04-23 10:00:35,462 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/cancel-payment HTTP/1.1" 200 None
+2023-04-23 10:00:35,463 - INFO - Transaction is canceled!
+2023-04-23 10:00:35,463 - INFO - CANCELED
+2023-04-23 10:53:44,000 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-04-23 10:53:44,548 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-04-23 10:53:44,555 - INFO - Successfully logged in to Wallter!
+2023-04-23 10:53:44,558 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-04-23 10:53:44,924 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-04-23 10:53:44,925 - INFO - Successfully redirected to Crymbo!
+2023-04-23 10:53:44,925 - INFO - 87a7fed2-9fce-4a8e-a864-f8be7785f6a9
+2023-04-23 10:53:45,246 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-04-23 10:53:45,247 - INFO - Successfully logged in to Crymbo!
+2023-04-23 10:53:46,915 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-23 10:53:46,916 - INFO - Transaction is created
+2023-04-23 10:53:46,916 - INFO - Oy5eVV0pWeEP
+2023-04-23 10:53:47,840 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-04-23 10:53:47,841 - INFO - Transaction is completed!
+2023-04-23 10:53:47,841 - INFO - OK00
+2023-04-23 10:53:49,493 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-23 10:53:49,494 - INFO - Transaction is created
+2023-04-23 10:53:49,494 - INFO - kQBeX9kxAayK
+2023-04-23 10:53:49,494 - INFO - -5.586112237618779
+2023-04-23 10:53:50,419 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-04-23 10:53:50,419 - INFO - Transaction is completed!
+2023-04-23 10:53:50,420 - INFO - OK00
+2023-04-23 10:54:58,770 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-04-23 10:54:59,169 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-04-23 10:54:59,170 - INFO - Successfully logged in to Wallter!
+2023-04-23 10:54:59,171 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-04-23 10:54:59,479 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-04-23 10:54:59,480 - INFO - Successfully redirected to Crymbo!
+2023-04-23 10:54:59,480 - INFO - e358394f-8e96-4c0f-ae74-ce994d5eb305
+2023-04-23 10:54:59,778 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-04-23 10:54:59,778 - INFO - Successfully logged in to Crymbo!
+2023-04-23 10:55:01,421 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-23 10:55:01,421 - INFO - Transaction is created
+2023-04-23 10:55:01,423 - INFO - joQeZ9mORdpZ
+2023-04-23 10:55:02,348 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-04-23 10:55:02,348 - INFO - Transaction is completed!
+2023-04-23 10:55:02,348 - INFO - OK00
+2023-04-23 10:55:04,038 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-23 10:55:04,038 - INFO - Transaction is created
+2023-04-23 10:55:04,038 - INFO - yJrb2w14NdWL
+2023-04-23 10:55:04,038 - INFO - 7.0883835610099695
+2023-04-23 10:55:04,963 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-04-23 10:55:04,964 - INFO - Transaction is completed!
+2023-04-23 10:55:04,964 - INFO - OK00
+2023-04-23 11:01:28,541 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-04-23 11:01:29,115 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-04-23 11:01:29,118 - INFO - Successfully logged in to Wallter!
+2023-04-23 11:01:29,121 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-04-23 11:01:29,502 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-04-23 11:01:29,505 - INFO - Successfully redirected to Crymbo!
+2023-04-23 11:01:29,505 - INFO - 418ee044-b31f-4d2a-8860-528edec12045
+2023-04-23 11:01:29,873 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-04-23 11:01:29,875 - INFO - Successfully logged in to Crymbo!
+2023-04-23 11:02:39,789 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-23 11:02:54,676 - INFO - Transaction is created
+2023-04-23 11:02:56,746 - INFO - KGRb4yYmndBL
+2023-04-23 11:03:08,217 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-04-23 11:03:12,931 - INFO - Transaction is completed!
+2023-04-23 11:03:13,866 - INFO - OK00
+2023-04-23 11:25:51,205 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-04-23 11:25:51,630 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-04-23 11:25:51,631 - INFO - Successfully logged in to Wallter!
+2023-04-23 11:25:51,632 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-04-23 11:25:51,952 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-04-23 11:25:51,952 - INFO - Successfully redirected to Crymbo!
+2023-04-23 11:25:51,952 - INFO - 697a7b54-b54a-4ffb-8510-5bb36b1b0968
+2023-04-23 11:25:52,265 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-04-23 11:25:52,266 - INFO - Successfully logged in to Crymbo!
+2023-04-23 11:25:53,815 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-23 11:25:53,816 - INFO - Transaction is created
+2023-04-23 11:25:53,816 - INFO - MVyb8DB8LbvA
+2023-04-23 11:25:54,764 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-04-23 11:25:54,766 - INFO - Transaction is completed!
+2023-04-23 11:25:54,767 - INFO - OK00
+2023-04-23 12:35:53,164 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-04-23 12:35:53,692 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-04-23 12:35:53,694 - INFO - Successfully logged in to Wallter!
+2023-04-23 12:35:53,695 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-04-23 12:35:54,091 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-04-23 12:35:54,092 - INFO - Successfully redirected to Crymbo!
+2023-04-23 12:35:54,092 - INFO - 1a078182-6b0b-45c4-9c0b-009b808a3c7f
+2023-04-23 12:35:54,416 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-04-23 12:35:54,417 - INFO - Successfully logged in to Crymbo!
+2023-04-23 12:35:56,060 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-23 12:35:56,060 - INFO - Transaction is created
+2023-04-23 12:35:56,060 - INFO - QnXe0rXqKbxr
+2023-04-23 12:35:56,987 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-04-23 12:35:56,988 - INFO - Transaction is completed!
+2023-04-23 12:35:56,988 - INFO - OK00
+2023-04-23 12:35:56,988 - INFO - -4.9200284530468
+2023-04-23 12:35:58,656 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-23 12:35:58,656 - INFO - Transaction is created
+2023-04-23 12:35:58,656 - INFO - Volej9OQldjN
+2023-04-23 12:35:58,657 - INFO - 7.992889913441779
+2023-04-23 12:35:59,586 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-04-23 12:35:59,587 - INFO - Transaction is completed!
+2023-04-23 12:35:59,587 - INFO - OK00
+2023-04-23 12:36:22,441 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-04-23 12:36:22,859 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-04-23 12:36:22,860 - INFO - Successfully logged in to Wallter!
+2023-04-23 12:36:22,862 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-04-23 12:36:23,186 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-04-23 12:36:23,186 - INFO - Successfully redirected to Crymbo!
+2023-04-23 12:36:23,186 - INFO - 3891ed88-9d52-412e-a45e-a33b74c4b0b1
+2023-04-23 12:36:23,472 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-04-23 12:36:23,473 - INFO - Successfully logged in to Crymbo!
+2023-04-23 12:36:25,101 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-23 12:36:25,101 - INFO - Transaction is created
+2023-04-23 12:36:25,101 - INFO - Opnel9MQraKB
+2023-04-23 12:36:25,538 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/cancel-payment HTTP/1.1" 200 None
+2023-04-23 12:36:25,538 - INFO - Transaction is canceled!
+2023-04-23 12:36:25,539 - INFO - CANCELED
+2023-04-23 12:36:27,194 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-23 12:36:27,195 - INFO - Transaction is created
+2023-04-23 12:36:27,195 - INFO - wMvbm9MRrbYA
+2023-04-23 12:36:27,619 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/cancel-payment HTTP/1.1" 200 None
+2023-04-23 12:36:27,619 - INFO - Transaction is canceled!
+2023-04-23 12:36:27,619 - INFO - CANCELED
+2023-04-23 12:37:45,833 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-04-23 12:37:46,255 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-04-23 12:37:46,257 - INFO - Successfully logged in to Wallter!
+2023-04-23 12:37:46,260 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-04-23 12:37:46,576 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-04-23 12:37:46,577 - INFO - Successfully redirected to Crymbo!
+2023-04-23 12:37:46,577 - INFO - f77aa7a7-cd4a-4022-83f7-fb697b87dc06
+2023-04-23 12:37:46,874 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-04-23 12:37:46,875 - INFO - Successfully logged in to Crymbo!
+2023-04-23 12:37:48,662 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-23 12:37:48,662 - INFO - Transaction is created
+2023-04-23 12:37:48,662 - INFO - 4open9NQEd7A
+2023-04-30 09:52:00,733 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-04-30 09:52:01,273 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-04-30 09:52:01,275 - INFO - Successfully logged in to Wallter!
+2023-04-30 09:52:01,276 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-04-30 09:52:01,696 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-04-30 09:52:01,697 - INFO - Successfully redirected to Crymbo!
+2023-04-30 09:52:01,697 - INFO - 05844848-b91e-4a87-b5cd-39ea10f0bd9c
+2023-04-30 09:52:02,032 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-04-30 09:52:02,033 - INFO - Successfully logged in to Crymbo!
+2023-04-30 09:52:03,717 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-30 09:52:03,718 - INFO - Transaction is created
+2023-04-30 09:52:03,718 - INFO - LYqaQ85WLenj
+2023-04-30 09:52:05,093 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-04-30 09:52:05,093 - INFO - Transaction is completed!
+2023-04-30 09:52:05,094 - INFO - OK00
+2023-04-30 09:52:07,316 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-30 09:52:07,317 - INFO - Transaction is created
+2023-04-30 09:52:07,317 - INFO - kQBeX9kDAayK
+2023-04-30 09:52:07,317 - INFO - 3.4224870165760635
+2023-04-30 09:52:08,257 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-04-30 09:52:08,257 - INFO - Transaction is completed!
+2023-04-30 09:52:08,257 - INFO - OK00
+2023-04-30 09:55:49,360 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-04-30 09:55:49,829 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-04-30 09:55:49,830 - INFO - Successfully logged in to Wallter!
+2023-04-30 09:55:49,830 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-04-30 09:55:50,160 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-04-30 09:55:50,160 - INFO - Successfully redirected to Crymbo!
+2023-04-30 09:55:50,160 - INFO - 743ce6b3-38a4-4133-82b2-298c9b7d8682
+2023-04-30 09:55:50,481 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-04-30 09:55:50,483 - INFO - Successfully logged in to Crymbo!
+2023-04-30 09:55:52,213 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-30 09:55:52,213 - INFO - Transaction is created
+2023-04-30 09:55:52,214 - INFO - joQeZ9m6RdpZ
+2023-04-30 09:55:52,214 - INFO - -8.334622636405031
+2023-04-30 09:55:52,214 - INFO - -0.6490485775366484
+2023-04-30 09:55:53,151 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-04-30 09:55:53,151 - INFO - Transaction is completed!
+2023-04-30 09:55:53,151 - INFO - OK00
+2023-04-30 09:55:54,823 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-30 09:55:54,824 - INFO - Transaction is created
+2023-04-30 09:55:54,824 - INFO - yJrb2w1kNdWL
+2023-04-30 09:55:54,824 - INFO - 4.628599541782311
+2023-04-30 09:55:54,824 - INFO - -1.0706769660168982
+2023-04-30 09:55:55,758 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-04-30 09:55:55,758 - INFO - Transaction is completed!
+2023-04-30 09:55:55,759 - INFO - OK00
+2023-04-30 10:00:16,313 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-04-30 10:00:16,828 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-04-30 10:00:16,829 - INFO - Successfully logged in to Wallter!
+2023-04-30 10:00:16,830 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-04-30 10:00:17,220 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-04-30 10:00:17,221 - INFO - Successfully redirected to Crymbo!
+2023-04-30 10:00:17,221 - INFO - 61f79a37-12af-490a-9a55-ccad1ab22166
+2023-04-30 10:00:17,540 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-04-30 10:00:17,543 - INFO - Successfully logged in to Crymbo!
+2023-04-30 10:00:19,372 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-30 10:00:19,372 - INFO - Transaction is created
+2023-04-30 10:00:19,372 - INFO - KGRb4yYxndBL
+2023-04-30 10:01:35,172 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-04-30 10:01:35,604 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-04-30 10:01:35,605 - INFO - Successfully logged in to Wallter!
+2023-04-30 10:01:35,607 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-04-30 10:01:35,934 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-04-30 10:01:35,935 - INFO - Successfully redirected to Crymbo!
+2023-04-30 10:01:35,935 - INFO - 0a7746d3-ed83-45c5-af0f-90df311f505d
+2023-04-30 10:01:36,242 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-04-30 10:01:36,242 - INFO - Successfully logged in to Crymbo!
+2023-04-30 10:01:37,913 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-30 10:01:37,913 - INFO - Transaction is created
+2023-04-30 10:01:37,913 - INFO - qM7e5z1yva2v
+2023-04-30 10:01:37,913 - INFO - -8.740504979730751
+2023-04-30 10:01:37,913 - INFO - 1.1995391407549083
+2023-04-30 10:01:39,281 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-04-30 10:01:39,282 - INFO - Transaction is completed!
+2023-04-30 10:01:39,282 - INFO - OK00
+2023-04-30 10:01:40,910 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-30 10:01:40,911 - INFO - Transaction is created
+2023-04-30 10:01:40,911 - INFO - VWPe9ELrZeLy
+2023-04-30 10:01:40,911 - INFO - 5.263663104517221
+2023-04-30 10:01:40,911 - INFO - 0.6652976562302806
+2023-04-30 10:01:42,288 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-04-30 10:01:42,288 - INFO - Transaction is completed!
+2023-04-30 10:01:42,288 - INFO - OK00
+2023-04-30 10:03:43,409 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-04-30 10:03:43,830 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-04-30 10:03:43,831 - INFO - Successfully logged in to Wallter!
+2023-04-30 10:03:43,832 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-04-30 10:03:44,136 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-04-30 10:03:44,137 - INFO - Successfully redirected to Crymbo!
+2023-04-30 10:03:44,137 - INFO - 4ace81d0-1bc9-40e5-9428-2f2e42def783
+2023-04-30 10:03:44,426 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-04-30 10:03:44,426 - INFO - Successfully logged in to Crymbo!
+2023-04-30 10:03:46,235 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-30 10:03:46,236 - INFO - Transaction is created
+2023-04-30 10:03:46,236 - INFO - Wpmbk0OREdzJ
+2023-04-30 10:03:46,329 - DEBUG - https://crymbo-integ.wallter.com:443 "DELETE /api/v2/payment/cancel-paymentWpmbk0OREdzJ HTTP/1.1" 500 None
+2023-04-30 10:03:46,333 - ERROR - Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\annan\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\annan\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\annan\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\annan\PycharmProjects\crymbo\crymbo_cancel.py", line 126, in main_flow_cancel
+    payment_status = paymentCancel_response.json().get("payment_status")
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-04-30 10:03:47,962 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-30 10:03:47,963 - INFO - Transaction is created
+2023-04-30 10:03:47,963 - INFO - Opnel9MYraKB
+2023-04-30 10:03:48,044 - DEBUG - https://crymbo-integ.wallter.com:443 "DELETE /api/v2/payment/cancel-paymentOpnel9MYraKB HTTP/1.1" 500 None
+2023-04-30 10:03:48,045 - ERROR - Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\annan\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\annan\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\annan\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\annan\PycharmProjects\crymbo\crymbo_cancel.py", line 168, in main_flow_cancel
+    payment_status = paymentCancel_response.json().get("payment_status")
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-04-30 10:05:13,337 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-04-30 10:05:13,769 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-04-30 10:05:13,771 - INFO - Successfully logged in to Wallter!
+2023-04-30 10:05:13,772 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-04-30 10:05:14,096 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-04-30 10:05:14,098 - INFO - Successfully redirected to Crymbo!
+2023-04-30 10:05:14,098 - INFO - 0c5cd71d-9752-4d51-9d50-62080dde8262
+2023-04-30 10:05:14,379 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-04-30 10:05:14,381 - INFO - Successfully logged in to Crymbo!
+2023-04-30 10:05:16,181 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-30 10:05:16,181 - INFO - Transaction is created
+2023-04-30 10:05:16,181 - INFO - wMvbm9MZrbYA
+2023-04-30 10:05:16,591 - DEBUG - https://crymbo-integ.wallter.com:443 "DELETE /api/v2/payment/wMvbm9MZrbYA HTTP/1.1" 200 None
+2023-04-30 10:05:16,592 - INFO - Transaction is canceled!
+2023-04-30 10:05:16,592 - INFO - CANCELED
+2023-04-30 10:05:18,276 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-30 10:05:18,276 - INFO - Transaction is created
+2023-04-30 10:05:18,276 - INFO - 4open9N5Ed7A
+2023-04-30 10:05:18,644 - DEBUG - https://crymbo-integ.wallter.com:443 "DELETE /api/v2/payment/4open9N5Ed7A HTTP/1.1" 200 None
+2023-04-30 10:05:18,644 - INFO - Transaction is canceled!
+2023-04-30 10:05:18,644 - INFO - CANCELED
+2023-04-30 10:26:39,855 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-04-30 10:26:40,230 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-04-30 10:26:40,230 - INFO - Successfully logged in to Wallter!
+2023-04-30 10:26:40,231 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-04-30 10:26:40,619 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-04-30 10:26:40,619 - INFO - Successfully redirected to Crymbo!
+2023-04-30 10:26:40,620 - INFO - 408ac878-948d-47e8-b629-fd5b34e8a936
+2023-04-30 10:26:40,971 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-04-30 10:26:40,972 - INFO - Successfully logged in to Crymbo!
+2023-04-30 10:26:42,782 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-30 10:26:42,783 - INFO - Transaction is created
+2023-04-30 10:26:42,784 - INFO - WJxbog623bgw
+2023-04-30 10:26:44,172 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-04-30 10:26:44,173 - INFO - Transaction is completed!
+2023-04-30 10:26:44,173 - INFO - OK00
+2023-04-30 10:26:44,173 - INFO - 9.65888151907922
+2023-04-30 10:26:44,173 - INFO - 0.24186560390625322
+2023-04-30 10:26:45,933 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-30 10:26:45,933 - INFO - Transaction is created
+2023-04-30 10:26:45,933 - INFO - gl9avp92XdG1
+2023-04-30 10:26:45,933 - INFO - 1.180749551447036
+2023-04-30 10:26:45,933 - INFO - -0.4704151203167477
+2023-04-30 10:26:46,863 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-04-30 10:26:46,865 - INFO - Transaction is completed!
+2023-04-30 10:26:46,866 - INFO - OK00
+2023-04-30 10:28:08,474 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-04-30 10:28:08,974 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-04-30 10:28:08,975 - INFO - Successfully logged in to Wallter!
+2023-04-30 10:28:08,976 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-04-30 10:28:09,293 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-04-30 10:28:09,294 - INFO - Successfully redirected to Crymbo!
+2023-04-30 10:28:09,295 - INFO - cfd7a0b0-4e78-4714-97ef-fd5460a4c7e2
+2023-04-30 10:28:09,579 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-04-30 10:28:09,580 - INFO - Successfully logged in to Crymbo!
+2023-04-30 10:28:11,242 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-30 10:28:11,243 - INFO - Transaction is created
+2023-04-30 10:28:11,243 - INFO - Wjneg9Q5YbwZ
+2023-04-30 10:28:11,243 - INFO - -7.2328262347769945
+2023-04-30 10:28:11,243 - INFO - -1.8650226360930406
+2023-04-30 10:28:12,181 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-04-30 10:28:12,182 - INFO - Transaction is completed!
+2023-04-30 10:28:12,182 - INFO - OK00
+2023-04-30 10:28:13,951 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-30 10:28:13,952 - INFO - Transaction is created
+2023-04-30 10:28:13,953 - INFO - Wpmbk0O55dzJ
+2023-04-30 10:28:13,953 - INFO - -2.602748727321808
+2023-04-30 10:28:13,953 - INFO - 0.28715512397658527
+2023-04-30 10:28:15,332 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-04-30 10:28:15,333 - INFO - Transaction is completed!
+2023-04-30 10:28:15,333 - INFO - OK00
+2023-04-30 10:33:45,641 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-04-30 10:33:46,008 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-04-30 10:33:46,009 - INFO - Successfully logged in to Wallter!
+2023-04-30 10:33:46,010 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-04-30 10:33:46,410 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-04-30 10:33:46,411 - INFO - Successfully redirected to Crymbo!
+2023-04-30 10:33:46,411 - INFO - 225d66c3-92f4-4784-9141-b5ff7738a72c
+2023-04-30 10:33:46,678 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-04-30 10:33:46,679 - INFO - Successfully logged in to Crymbo!
+2023-04-30 10:33:49,897 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-30 10:33:49,898 - INFO - Transaction is created
+2023-04-30 10:33:49,898 - INFO - WJxbog6Yjbgw
+2023-04-30 10:33:49,981 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/WJxbog6Yjbgw HTTP/1.1" 405 None
+2023-04-30 10:33:49,981 - ERROR - Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\annan\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\annan\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\annan\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\annan\PycharmProjects\crymbo\crymboCancel_test.py", line 122, in main_flow_cancel
+    payment_status = paymentCancel_response.json().get("payment_status")
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-04-30 10:33:51,647 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-30 10:33:51,647 - INFO - Transaction is created
+2023-04-30 10:33:51,647 - INFO - k8mepjXg2bMy
+2023-04-30 10:33:51,729 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/k8mepjXg2bMy HTTP/1.1" 405 None
+2023-04-30 10:33:51,729 - ERROR - Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\annan\Python310\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\annan\Python310\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\annan\Python310\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\annan\PycharmProjects\crymbo\crymboCancel_test.py", line 163, in main_flow_cancel
+    payment_status = paymentCancel_response.json().get("payment_status")
+  File "C:\Users\annan\Python310\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-04-30 10:35:34,007 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-04-30 10:35:34,482 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-04-30 10:35:34,483 - INFO - Successfully logged in to Wallter!
+2023-04-30 10:35:34,484 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-04-30 10:35:34,814 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-04-30 10:35:34,816 - INFO - Successfully redirected to Crymbo!
+2023-04-30 10:35:34,816 - INFO - fa440aeb-9b91-4566-9658-52347dd397f0
+2023-04-30 10:35:35,118 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-04-30 10:35:35,119 - INFO - Successfully logged in to Crymbo!
+2023-04-30 10:35:36,948 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-30 10:35:36,948 - INFO - Transaction is created
+2023-04-30 10:35:36,948 - INFO - l4zbqkMj2epr
+2023-04-30 10:35:37,364 - DEBUG - https://crymbo-integ.wallter.com:443 "DELETE /api/v2/payment/l4zbqkMj2epr HTTP/1.1" 200 None
+2023-04-30 10:35:37,365 - INFO - Transaction is canceled!
+2023-04-30 10:35:37,365 - INFO - CANCELED
+2023-04-30 10:35:39,031 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-30 10:35:39,031 - INFO - Transaction is created
+2023-04-30 10:35:39,031 - INFO - yMYerlM0EbOB
+2023-04-30 10:35:39,440 - DEBUG - https://crymbo-integ.wallter.com:443 "DELETE /api/v2/payment/yMYerlM0EbOB HTTP/1.1" 200 None
+2023-04-30 10:35:39,440 - INFO - Transaction is canceled!
+2023-04-30 10:35:39,440 - INFO - CANCELED
+2023-04-30 11:20:31,523 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-04-30 11:20:32,035 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-04-30 11:20:32,039 - INFO - Successfully logged in to Wallter!
+2023-04-30 11:20:32,042 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-04-30 11:20:32,425 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-04-30 11:20:32,426 - INFO - Successfully redirected to Crymbo!
+2023-04-30 11:20:32,426 - INFO - 2644abb3-ba17-4cc8-b4ea-1f5b7b122739
+2023-04-30 11:20:32,725 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-04-30 11:20:32,726 - INFO - Successfully logged in to Crymbo!
+2023-04-30 11:20:34,512 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-30 11:20:34,513 - INFO - DEBIT Transaction is created
+2023-04-30 11:20:34,513 - INFO - JX7axr7G9dyv
+2023-04-30 11:20:34,513 - INFO - 1.5582841255522992
+2023-04-30 11:20:34,513 - INFO - 0.7022836224420455
+2023-04-30 11:20:35,897 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-04-30 11:20:35,897 - INFO - Transaction is completed!
+2023-04-30 11:20:35,897 - INFO - OK00
+2023-04-30 11:20:37,552 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-04-30 11:20:37,552 - INFO - CREDIT Transaction is created
+2023-04-30 11:20:37,552 - INFO - X46dBYRgXb79
+2023-04-30 11:20:37,552 - INFO - 5.078084682666546
+2023-04-30 11:20:37,553 - INFO - 1.6838381456690639
+2023-04-30 11:20:38,925 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-04-30 11:20:38,926 - INFO - Transaction is completed!
+2023-04-30 11:20:38,926 - INFO - OK00
+2023-05-04 14:22:05,316 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-04 14:22:05,791 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-04 14:22:05,794 - INFO - Successfully logged in to Wallter!
+2023-05-04 14:22:05,796 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-04 14:22:06,122 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-04 14:22:06,123 - INFO - Successfully redirected to Crymbo!
+2023-05-04 14:22:06,123 - INFO - 6d2ed50b-5560-4704-8dd9-eadecc651cf3
+2023-05-04 14:22:06,577 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-04 14:22:06,578 - INFO - Successfully logged in to Crymbo!
+2023-05-04 14:22:08,281 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-04 14:22:08,281 - INFO - Transaction is created
+2023-05-04 14:22:08,281 - INFO - 7N1aMV5w3bWm
+2023-05-04 14:22:08,281 - INFO - -5.093895011664225
+2023-05-04 14:22:08,281 - INFO - -0.8992668946445503
+2023-05-04 14:22:09,345 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-05-04 14:22:09,346 - INFO - Transaction is completed!
+2023-05-04 14:22:09,346 - INFO - OK00
+2023-05-04 14:22:11,137 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-04 14:22:11,137 - INFO - Transaction is created
+2023-05-04 14:22:11,138 - INFO - z3YaO05MNbxq
+2023-05-04 14:22:11,138 - INFO - -4.682462384791122
+2023-05-04 14:22:11,138 - INFO - -1.5555671373860545
+2023-05-04 14:22:12,121 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-05-04 14:22:12,122 - INFO - Transaction is completed!
+2023-05-04 14:22:12,122 - INFO - OK00
+2023-05-04 14:22:12,210 - DEBUG - https://crymbo-integ.wallter.com:443 "GET /api/v2/account?currency=USD HTTP/1.1" 308 None
+2023-05-04 14:22:12,730 - DEBUG - https://crymbo-integ.wallter.com:443 "GET /api/v2/account/?currency=USD HTTP/1.1" 200 None
+2023-05-04 14:22:12,730 - INFO - 807263.35
+2023-05-04 14:22:56,664 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-04 14:22:57,128 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-04 14:22:57,129 - INFO - Successfully logged in to Wallter!
+2023-05-04 14:22:57,130 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-04 14:22:57,505 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-04 14:22:57,506 - INFO - Successfully redirected to Crymbo!
+2023-05-04 14:22:57,507 - INFO - 244ce5c6-fcac-44ac-a8ce-99ce4da66571
+2023-05-04 14:22:58,166 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-04 14:22:58,167 - INFO - Successfully logged in to Crymbo!
+2023-05-04 14:22:59,942 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-04 14:22:59,943 - INFO - Transaction is created
+2023-05-04 14:22:59,943 - INFO - LYqaQ85nYenj
+2023-05-04 14:22:59,943 - INFO - -1.1812560498271214
+2023-05-04 14:22:59,943 - INFO - -1.7304001488802045
+2023-05-04 14:23:00,967 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-05-04 14:23:00,968 - INFO - Transaction is completed!
+2023-05-04 14:23:00,968 - INFO - OK00
+2023-05-04 14:23:02,651 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-04 14:23:02,651 - INFO - Transaction is created
+2023-05-04 14:23:02,651 - INFO - Oy5eVV0A1eEP
+2023-05-04 14:23:02,651 - INFO - -3.6095150157531126
+2023-05-04 14:23:02,651 - INFO - 0.7812660641620495
+2023-05-04 14:23:04,070 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-05-04 14:23:04,071 - INFO - Transaction is completed!
+2023-05-04 14:23:04,071 - INFO - OK00
+2023-05-04 14:23:04,157 - DEBUG - https://crymbo-integ.wallter.com:443 "GET /api/v2/account?currency=USD HTTP/1.1" 308 None
+2023-05-04 14:23:04,637 - DEBUG - https://crymbo-integ.wallter.com:443 "GET /api/v2/account/?currency=USD HTTP/1.1" 200 None
+2023-05-04 14:23:04,638 - INFO - 807267.74
+2023-05-04 14:24:23,700 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-04 14:24:24,104 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-04 14:24:24,105 - INFO - Successfully logged in to Wallter!
+2023-05-04 14:24:24,106 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-04 14:24:24,428 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-04 14:24:24,430 - INFO - Successfully redirected to Crymbo!
+2023-05-04 14:24:24,430 - INFO - 9a53de80-d37e-4fe4-8afe-39f2605d175c
+2023-05-04 14:24:24,955 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-04 14:24:24,956 - INFO - Successfully logged in to Crymbo!
+2023-05-04 14:24:26,907 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-04 14:24:26,907 - INFO - Transaction is created
+2023-05-04 14:24:26,908 - INFO - joQeZ9m86dpZ
+2023-05-04 14:24:26,908 - INFO - 2.2765714800450643
+2023-05-04 14:24:26,908 - INFO - 1.0927007488630345
+2023-05-04 14:24:28,328 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-05-04 14:24:28,329 - INFO - Transaction is completed!
+2023-05-04 14:24:28,329 - INFO - OK00
+2023-05-04 14:24:30,115 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-04 14:24:30,116 - INFO - Transaction is created
+2023-05-04 14:24:30,117 - INFO - KGRb4yY66dBL
+2023-05-04 14:24:30,117 - INFO - 3.3417016607989485
+2023-05-04 14:24:30,117 - INFO - 1.8696224112549449
+2023-05-04 14:24:31,584 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-05-04 14:24:31,586 - INFO - Transaction is completed!
+2023-05-04 14:24:31,586 - INFO - OK00
+2023-05-04 14:24:31,676 - DEBUG - https://crymbo-integ.wallter.com:443 "GET /api/v2/account?currency=USD HTTP/1.1" 308 None
+2023-05-04 14:24:32,033 - DEBUG - https://crymbo-integ.wallter.com:443 "GET /api/v2/account/?currency=USD HTTP/1.1" 200 None
+2023-05-04 14:24:32,034 - INFO - 807267.72
+2023-05-04 14:25:13,620 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-04 14:25:13,990 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-04 14:25:13,991 - INFO - Successfully logged in to Wallter!
+2023-05-04 14:25:13,992 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-04 14:25:14,324 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 38
+2023-05-04 14:27:00,799 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-04 14:27:01,251 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-04 14:27:01,252 - INFO - Successfully logged in to Wallter!
+2023-05-04 14:27:01,253 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-04 14:27:01,432 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-04 14:27:01,432 - INFO - Successfully redirected to Crymbo!
+2023-05-04 14:27:01,432 - INFO - 60fb96bd-3f91-44a1-a357-4e680783f928
+2023-05-04 14:27:01,880 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-04 14:27:01,881 - INFO - Successfully logged in to Crymbo!
+2023-05-04 14:27:03,665 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-04 14:27:03,666 - INFO - Transaction is created
+2023-05-04 14:27:03,667 - INFO - MVyb8DB3obvA
+2023-05-04 14:27:03,667 - INFO - 7.125386101961316
+2023-05-04 14:27:03,667 - INFO - 1.7855554386774262
+2023-05-04 14:27:05,158 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-05-04 14:27:05,158 - INFO - Transaction is completed!
+2023-05-04 14:27:05,158 - INFO - OK00
+2023-05-04 14:27:07,048 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-04 14:27:07,048 - INFO - Transaction is created
+2023-05-04 14:27:07,050 - INFO - Volej9OY5djN
+2023-05-04 14:27:07,050 - INFO - 6.036648510791347
+2023-05-04 14:27:07,050 - INFO - 1.127844022533314
+2023-05-04 14:27:08,473 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-05-04 14:27:08,474 - INFO - Transaction is completed!
+2023-05-04 14:27:08,474 - INFO - OK00
+2023-05-04 14:27:08,560 - DEBUG - https://crymbo-integ.wallter.com:443 "GET /api/v2/account?currency=USD HTTP/1.1" 308 None
+2023-05-04 14:27:09,058 - DEBUG - https://crymbo-integ.wallter.com:443 "GET /api/v2/account/?currency=USD HTTP/1.1" 200 None
+2023-05-04 14:27:09,060 - INFO - 807264.79
+2023-05-04 14:28:19,759 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-04 14:28:20,196 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-04 14:28:20,201 - INFO - Successfully logged in to Wallter!
+2023-05-04 14:28:20,202 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-04 14:28:20,594 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-04 14:28:20,594 - INFO - Successfully redirected to Crymbo!
+2023-05-04 14:28:20,594 - INFO - 527b4a9c-96b7-485e-be8c-2f0df2d08bf7
+2023-05-04 14:28:21,120 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-04 14:28:21,121 - INFO - Successfully logged in to Crymbo!
+2023-05-04 14:28:23,151 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-04 14:28:23,153 - INFO - Transaction is created
+2023-05-04 14:28:23,153 - INFO - 4open9NRld7A
+2023-05-04 14:28:23,153 - INFO - 7.590379218056617
+2023-05-04 14:28:23,153 - INFO - 1.6930892864957836
+2023-05-04 14:28:24,778 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-05-04 14:28:24,778 - INFO - Transaction is completed!
+2023-05-04 14:28:24,778 - INFO - OK00
+2023-05-04 14:28:26,646 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-04 14:28:26,647 - INFO - Transaction is created
+2023-05-04 14:28:26,647 - INFO - yMYerlM26bOB
+2023-05-04 14:28:26,647 - INFO - 7.029263086106273
+2023-05-04 14:28:26,647 - INFO - 1.7924947168502725
+2023-05-04 14:28:28,200 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-05-04 14:28:28,201 - INFO - Transaction is completed!
+2023-05-04 14:28:28,201 - INFO - OK00
+2023-05-04 14:28:28,293 - DEBUG - https://crymbo-integ.wallter.com:443 "GET /api/v2/account?currency=USD HTTP/1.1" 308 None
+2023-05-04 14:28:28,791 - DEBUG - https://crymbo-integ.wallter.com:443 "GET /api/v2/account/?currency=USD HTTP/1.1" 200 None
+2023-05-04 14:28:28,791 - INFO - 807262.52
+2023-05-04 15:41:20,915 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-04 15:41:21,476 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-04 15:41:21,480 - INFO - Successfully logged in to Wallter!
+2023-05-04 15:41:21,484 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-04 15:41:21,861 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-04 15:41:21,862 - INFO - Successfully redirected to Crymbo!
+2023-05-04 15:41:21,863 - INFO - 36587f77-4156-4f04-84ae-05d3296dddf1
+2023-05-04 15:41:22,401 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-04 15:41:22,403 - INFO - Successfully logged in to Crymbo!
+2023-05-04 15:41:24,200 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-04 15:41:24,201 - INFO - Transaction is created
+2023-05-04 15:41:24,201 - INFO - xYRdGVQR0bDz
+2023-05-04 15:41:24,201 - INFO - 9.164004891842472
+2023-05-04 15:41:24,201 - INFO - 1.930029315117507
+2023-05-04 15:41:25,687 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-05-04 15:41:25,689 - INFO - Transaction is completed!
+2023-05-04 15:41:25,689 - INFO - OK00
+2023-05-04 15:41:27,370 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-04 15:41:27,371 - INFO - Transaction is created
+2023-05-04 15:41:27,371 - INFO - 7N1aMV5Z3bWm
+2023-05-04 15:41:27,371 - INFO - 3.7268396899105523
+2023-05-04 15:41:27,371 - INFO - 1.892906763281315
+2023-05-04 15:41:28,793 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-05-04 15:41:28,794 - INFO - Transaction is completed!
+2023-05-04 15:41:28,795 - INFO - OK00
+2023-05-04 15:41:28,889 - DEBUG - https://crymbo-integ.wallter.com:443 "GET /api/v2/account?currency=USD HTTP/1.1" 308 None
+2023-05-04 15:41:29,373 - DEBUG - https://crymbo-integ.wallter.com:443 "GET /api/v2/account/?currency=USD HTTP/1.1" 200 None
+2023-05-04 15:41:29,373 - INFO - 851872.42
+2023-05-07 16:08:21,084 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-07 16:08:21,567 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-07 16:08:21,568 - INFO - Successfully logged in to Wallter!
+2023-05-07 16:08:21,570 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-07 16:08:21,951 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-07 16:08:21,952 - INFO - Successfully redirected to Crymbo!
+2023-05-07 16:08:21,952 - INFO - 33577527-f4ae-4546-affd-6fe675d1b74c
+2023-05-07 16:08:22,410 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-07 16:08:22,413 - INFO - Successfully logged in to Crymbo!
+2023-05-07 16:08:24,532 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-07 16:08:24,532 - INFO - DEBIT Transaction is created
+2023-05-07 16:08:24,532 - INFO - yMYerlM9wbOB
+2023-05-07 16:08:24,532 - INFO - 8.433095791860328
+2023-05-07 16:08:24,532 - INFO - 1.3019383498873416
+2023-05-07 16:08:26,011 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-05-07 16:08:26,012 - INFO - Transaction is completed!
+2023-05-07 16:08:26,012 - INFO - OK00
+2023-05-07 16:08:27,904 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-07 16:08:27,904 - INFO - CREDIT Transaction is created
+2023-05-07 16:08:27,904 - INFO - kzPdyvJXVeQr
+2023-05-07 16:08:27,904 - INFO - 9.493280681950027
+2023-05-07 16:08:27,904 - INFO - 1.4327369854738476
+2023-05-07 16:08:29,334 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-05-07 16:08:29,336 - INFO - Transaction is completed!
+2023-05-07 16:08:29,336 - INFO - OK00
+2023-05-08 11:15:44,054 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-08 11:15:44,555 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-08 11:15:44,558 - INFO - Successfully logged in to Wallter!
+2023-05-08 11:15:44,559 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-08 11:15:44,920 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-08 11:15:44,920 - INFO - Successfully redirected to Crymbo!
+2023-05-08 11:15:44,920 - INFO - 005aac1b-b120-454b-ad7e-b59d92aec30f
+2023-05-08 11:15:45,419 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-08 11:15:45,421 - INFO - Successfully logged in to Crymbo!
+2023-05-08 11:15:47,349 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-08 11:15:47,350 - INFO - DEBIT Transaction is created
+2023-05-08 11:15:47,350 - INFO - KGRb4yY92dBL
+2023-05-08 11:15:47,351 - INFO - 9.611594121538909
+2023-05-08 11:15:47,351 - INFO - 1.559579539096795
+2023-05-08 11:15:48,831 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-05-08 11:15:48,831 - INFO - Transaction is completed!
+2023-05-08 11:15:48,832 - INFO - OK00
+2023-05-08 11:15:50,820 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-08 11:15:50,821 - INFO - CREDIT Transaction is created
+2023-05-08 11:15:50,821 - INFO - MVyb8DB9lbvA
+2023-05-08 11:15:50,821 - INFO - 9.825347552134991
+2023-05-08 11:15:50,822 - INFO - 1.0324347428448717
+2023-05-08 11:15:52,281 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-05-08 11:15:52,281 - INFO - Transaction is completed!
+2023-05-08 11:15:52,281 - INFO - OK00
+2023-05-08 11:15:54,271 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-08 11:15:54,272 - INFO - CREDIT Transaction is created
+2023-05-08 11:15:54,272 - INFO - Volej9OnWdjN
+2023-05-08 11:15:54,272 - INFO - 3.8227959369855538
+2023-05-08 11:15:54,272 - INFO - 1.5029016228498537
+2023-05-08 11:15:55,694 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-05-08 11:15:55,695 - INFO - Transaction is completed!
+2023-05-08 11:15:55,695 - INFO - OK00
+2023-05-08 11:17:51,322 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-08 11:17:51,758 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-08 11:17:51,759 - INFO - Successfully logged in to Wallter!
+2023-05-08 11:17:51,760 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-08 11:17:51,908 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-08 11:17:51,909 - INFO - Successfully redirected to Crymbo!
+2023-05-08 11:17:51,909 - INFO - 497f19e0-0805-4419-af00-ccaccc0d85a3
+2023-05-08 11:17:52,160 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-08 11:17:52,162 - INFO - Successfully logged in to Crymbo!
+2023-05-08 11:17:54,414 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-08 11:17:54,415 - INFO - DEBIT Transaction is created
+2023-05-08 11:17:54,415 - INFO - 4open9Nz4d7A
+2023-05-08 11:17:54,415 - INFO - 7.481459604280431
+2023-05-08 11:17:54,415 - INFO - 1.7636927438348557
+2023-05-08 11:17:55,872 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-05-08 11:17:55,872 - INFO - Transaction is completed!
+2023-05-08 11:17:55,872 - INFO - OK00
+2023-05-08 11:17:57,857 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-08 11:17:57,857 - INFO - CREDIT Transaction is created
+2023-05-08 11:17:57,857 - INFO - yMYerlMYwbOB
+2023-05-08 11:17:57,857 - INFO - 4.226453557383672
+2023-05-08 11:17:57,857 - INFO - 1.5003083776728852
+2023-05-08 11:17:59,333 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-05-08 11:17:59,334 - INFO - Transaction is completed!
+2023-05-08 11:17:59,334 - INFO - OK00
+2023-05-08 11:18:01,243 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-08 11:18:01,243 - INFO - CREDIT Transaction is created
+2023-05-08 11:18:01,243 - INFO - Volej9OnzdjN
+2023-05-08 11:18:01,243 - INFO - 5.2997490746323
+2023-05-08 11:18:01,243 - INFO - 1.2919355014825682
+2023-05-08 11:18:02,830 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/settle HTTP/1.1" 200 None
+2023-05-08 11:18:02,830 - INFO - Transaction is completed!
+2023-05-08 11:18:02,830 - INFO - OK00
+2023-05-08 11:25:16,099 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-08 11:25:16,646 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-08 11:25:16,647 - INFO - Successfully logged in to Wallter!
+2023-05-08 11:25:16,649 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-08 11:25:17,014 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-08 11:25:17,015 - INFO - Successfully redirected to Crymbo!
+2023-05-08 11:25:17,015 - INFO - 390c1606-9858-48e1-89b0-134da2c55419
+2023-05-08 11:25:17,547 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-08 11:25:17,547 - INFO - Successfully logged in to Crymbo!
+2023-05-08 11:25:19,577 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-08 11:25:19,577 - INFO - DEBIT Transaction is created
+2023-05-08 11:25:19,577 - INFO - 4open9NzDd7A
+2023-05-08 11:25:20,037 - DEBUG - https://crymbo-integ.wallter.com:443 "DELETE /api/v2/payment/4open9NzDd7A HTTP/1.1" 200 None
+2023-05-08 11:25:20,038 - INFO - DEBIT Transaction is canceled!
+2023-05-08 11:25:20,038 - INFO - CANCELED
+2023-05-08 11:25:22,003 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-08 11:25:22,004 - INFO - CREDIT Transaction is created
+2023-05-08 11:25:22,004 - INFO - WJxbog6ONbgw
+2023-05-08 11:25:22,486 - DEBUG - https://crymbo-integ.wallter.com:443 "DELETE /api/v2/payment/WJxbog6ONbgw HTTP/1.1" 200 None
+2023-05-08 11:25:22,487 - INFO - CREDIT Transaction is canceled!
+2023-05-08 11:25:22,487 - INFO - CANCELED
+2023-05-08 15:03:13,106 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-08 15:03:13,581 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-08 15:03:13,581 - INFO - Successfully logged in to Wallter!
+2023-05-08 15:03:13,582 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-08 15:03:13,919 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-08 15:03:13,920 - INFO - Successfully redirected to Crymbo!
+2023-05-08 15:03:13,920 - INFO - f20c6d32-e1a3-4dc1-974f-83df764bd38b
+2023-05-08 15:03:14,433 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-08 15:03:14,433 - INFO - Successfully logged in to Crymbo!
+2023-05-08 15:03:16,384 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-08 15:03:16,384 - INFO - DEBIT Transaction is created
+2023-05-08 15:03:16,384 - INFO - oBDbDVJYYel2
+2023-05-08 15:03:16,858 - DEBUG - https://crymbo-integ.wallter.com:443 "DELETE /api/v2/payment/oBDbDVJYYel2 HTTP/1.1" 200 None
+2023-05-08 15:03:16,858 - INFO - DEBIT Transaction is canceled!
+2023-05-08 15:03:16,858 - INFO - CANCELED
+2023-05-08 15:03:18,876 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-08 15:03:18,877 - INFO - CREDIT Transaction is created
+2023-05-08 15:03:18,877 - INFO - K4oeEV6ZKa0B
+2023-05-08 15:03:19,271 - DEBUG - https://crymbo-integ.wallter.com:443 "DELETE /api/v2/payment/K4oeEV6ZKa0B HTTP/1.1" 200 None
+2023-05-08 15:03:19,271 - INFO - CREDIT Transaction is canceled!
+2023-05-08 15:03:19,271 - INFO - CANCELED
+2023-05-08 15:17:37,794 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-08 15:17:38,218 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-08 15:17:38,221 - INFO - Successfully logged in to Wallter!
+2023-05-08 15:17:38,224 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-08 15:17:38,551 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-08 15:17:38,552 - INFO - Successfully redirected to Crymbo!
+2023-05-08 15:17:38,552 - INFO - 8e734b80-33ca-455d-a648-fac82fb1d619
+2023-05-08 15:17:39,020 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-08 15:17:39,021 - INFO - Successfully logged in to Crymbo!
+2023-05-08 15:17:41,022 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-08 15:17:41,022 - INFO - DEBIT Transaction is created
+2023-05-08 15:17:41,022 - INFO - 4y1aKV5YzeQG
+2023-05-08 15:17:41,445 - DEBUG - https://crymbo-integ.wallter.com:443 "DELETE /api/v2/payment/4y1aKV5YzeQG HTTP/1.1" 200 None
+2023-05-08 15:17:41,446 - INFO - DEBIT Transaction is canceled!
+2023-05-08 15:17:41,446 - INFO - 4y1aKV5YzeQG
+2023-05-08 15:17:41,446 - INFO - CANCELED
+2023-05-08 15:17:43,480 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payment/initiate HTTP/1.1" 201 26
+2023-05-08 15:17:43,481 - INFO - CREDIT Transaction is created
+2023-05-08 15:17:43,481 - INFO - q9wdLV5YWajP
+2023-05-08 15:17:44,011 - DEBUG - https://crymbo-integ.wallter.com:443 "DELETE /api/v2/payment/q9wdLV5YWajP HTTP/1.1" 200 None
+2023-05-08 15:17:44,011 - INFO - CREDIT Transaction is canceled!
+2023-05-08 15:17:44,011 - INFO - q9wdLV5YWajP
+2023-05-08 15:17:44,012 - INFO - CANCELED
+2023-05-11 15:13:22,896 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-11 15:13:23,339 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-11 15:13:23,340 - INFO - Successfully logged in to Wallter!
+2023-05-11 15:13:23,342 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-11 15:13:23,716 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-11 15:13:23,716 - INFO - Successfully redirected to Crymbo!
+2023-05-11 15:13:23,716 - INFO - 8f5572d9-5dce-4e77-af75-e56de255cb61
+2023-05-11 15:13:23,995 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-11 15:13:23,996 - INFO - Successfully logged in to Crymbo!
+2023-05-11 15:13:25,885 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 34
+2023-05-11 15:13:25,886 - INFO - DEBIT Transaction is created
+2023-05-11 15:13:25,886 - INFO - MWVYmxkazwx95bJ0PoX1
+2023-05-11 15:13:25,886 - INFO - 8.699055804531186
+2023-05-11 15:13:25,886 - INFO - 0.9349575272850343
+2023-05-11 15:13:27,310 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/settle HTTP/1.1" 200 None
+2023-05-11 15:13:27,310 - INFO - Transaction is completed!
+2023-05-11 15:13:27,310 - INFO - OK00
+2023-05-18 13:00:55,005 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-18 13:00:55,554 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-18 13:00:55,556 - INFO - Successfully logged in to Wallter!
+2023-05-18 13:00:55,557 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-18 13:00:55,945 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-18 13:00:55,945 - INFO - Successfully redirected to Crymbo!
+2023-05-18 13:00:55,945 - INFO - 4cc126f6-80c5-4b05-8613-39a203707f76
+2023-05-18 13:00:56,597 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-18 13:00:56,597 - INFO - Successfully logged in to Crymbo!
+2023-05-18 13:00:58,645 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 34
+2023-05-18 13:00:58,645 - INFO - DEBIT Transaction is created
+2023-05-18 13:00:58,645 - INFO - J4q2Volej9O6BdjNmGQB
+2023-05-18 13:00:58,646 - INFO - 6.33818509529342
+2023-05-18 13:00:58,646 - INFO - 0.9545779694350126
+2023-05-18 13:01:00,117 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/settle HTTP/1.1" 200 None
+2023-05-18 13:01:00,117 - INFO - Transaction is completed!
+2023-05-18 13:01:00,117 - INFO - OK00
+2023-05-18 13:01:02,195 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 34
+2023-05-18 13:01:02,196 - INFO - CREDIT Transaction is created
+2023-05-18 13:01:02,196 - INFO - 8VvJ4open9N6Pd7Az1XP
+2023-05-18 13:01:02,196 - INFO - 9.972575304212532
+2023-05-18 13:01:02,196 - INFO - 0.5747873930131522
+2023-05-18 13:01:03,612 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/settle HTTP/1.1" 200 None
+2023-05-18 13:01:03,612 - INFO - Transaction is completed!
+2023-05-18 13:01:03,612 - INFO - OK00
+2023-05-18 13:02:47,538 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-18 13:02:47,832 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-18 13:02:47,833 - INFO - Successfully logged in to Wallter!
+2023-05-18 13:02:47,835 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-18 13:02:48,160 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-18 13:02:48,160 - INFO - Successfully redirected to Crymbo!
+2023-05-18 13:02:48,160 - INFO - 146a1220-45df-4b08-8f20-2aeba8ba87e4
+2023-05-18 13:02:48,633 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-18 13:02:48,633 - INFO - Successfully logged in to Crymbo!
+2023-05-18 13:02:50,623 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 34
+2023-05-18 13:02:50,623 - INFO - DEBIT Transaction is created
+2023-05-18 13:02:50,624 - INFO - kpPy7LDdwqR7za1YKXAx
+2023-05-18 13:02:51,128 - DEBUG - https://crymbo-integ.wallter.com:443 "DELETE /api/v2/payments/kpPy7LDdwqR7za1YKXAx HTTP/1.1" 200 None
+2023-05-18 13:02:51,128 - INFO - DEBIT Transaction is canceled!
+2023-05-18 13:02:51,128 - INFO - kpPy7LDdwqR7za1YKXAx
+2023-05-18 13:02:51,128 - INFO - CANCELED
+2023-05-18 13:02:53,178 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 34
+2023-05-18 13:02:53,178 - INFO - CREDIT Transaction is created
+2023-05-18 13:02:53,178 - INFO - 8rVoJX7axr7LEdyv4Ek3
+2023-05-18 13:02:53,613 - DEBUG - https://crymbo-integ.wallter.com:443 "DELETE /api/v2/payments/8rVoJX7axr7LEdyv4Ek3 HTTP/1.1" 200 None
+2023-05-18 13:02:53,613 - INFO - CREDIT Transaction is canceled!
+2023-05-18 13:02:53,613 - INFO - 8rVoJX7axr7LEdyv4Ek3
+2023-05-18 13:02:53,613 - INFO - CANCELED
+2023-05-21 16:05:45,640 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-21 16:05:46,202 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-21 16:05:46,205 - INFO - Successfully logged in to Wallter!
+2023-05-21 16:05:46,207 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-21 16:05:46,606 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-21 16:05:46,606 - INFO - Successfully redirected to Crymbo!
+2023-05-21 16:05:46,606 - INFO - 9dcc31c5-35ee-4c28-9878-ca312b404bad
+2023-05-21 16:05:47,190 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-21 16:05:47,191 - INFO - Successfully logged in to Crymbo!
+2023-05-21 16:05:49,208 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 34
+2023-05-21 16:05:49,209 - INFO - DEBIT Transaction is created
+2023-05-21 16:05:49,209 - INFO - MWVYmxkazwxYObJ0PoX1
+2023-05-21 16:05:49,209 - INFO - 7.092378037194133
+2023-05-21 16:05:49,209 - INFO - 1.0901906239316788
+2023-05-21 16:05:50,630 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/settle HTTP/1.1" 200 None
+2023-05-21 16:05:50,631 - INFO - Transaction is completed!
+2023-05-21 16:05:50,631 - INFO - OK00
+2023-05-21 16:05:52,533 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 34
+2023-05-21 16:05:52,533 - INFO - CREDIT Transaction is created
+2023-05-21 16:05:52,534 - INFO - Yq1gK4oeEV6W4a0ByxjX
+2023-05-21 16:05:52,534 - INFO - 2.6563080562470898
+2023-05-21 16:05:52,534 - INFO - 1.4666301509958388
+2023-05-21 16:05:53,978 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/settle HTTP/1.1" 200 None
+2023-05-21 16:05:53,979 - INFO - Transaction is completed!
+2023-05-21 16:05:53,979 - INFO - OK00
+2023-05-21 16:11:38,452 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-21 16:11:39,002 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-21 16:11:39,005 - INFO - Successfully logged in to Wallter!
+2023-05-21 16:11:39,008 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-21 16:11:39,418 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 400 193
+2023-05-21 16:13:24,825 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-21 16:13:25,404 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-21 16:13:25,406 - INFO - Successfully logged in to Wallter!
+2023-05-21 16:13:25,407 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-21 16:13:25,789 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 400 193
+2023-05-21 16:20:56,341 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-21 16:20:56,850 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-21 16:20:56,851 - INFO - Successfully logged in to Wallter!
+2023-05-21 16:20:56,853 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-21 16:20:57,237 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-21 16:20:57,237 - INFO - Successfully redirected to Crymbo!
+2023-05-21 16:20:57,237 - INFO - 8dd3c238-9ec1-4101-810c-cd24e227d6cc
+2023-05-21 16:20:57,697 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-21 16:20:57,698 - INFO - Successfully logged in to Crymbo!
+2023-05-21 16:20:59,594 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 34
+2023-05-21 16:20:59,594 - INFO - DEBIT Transaction is created
+2023-05-21 16:20:59,594 - INFO - k1oYq9wdLV5WjajPXgEB
+2023-05-21 16:20:59,594 - INFO - 8.182632899274088
+2023-05-21 16:20:59,594 - INFO - 0.5779192457306209
+2023-05-21 16:20:59,597 - ERROR - No connection adapters were found for 'hhttps://crymbo-integ.wallter.com/api/v2/payments/settle'
+Traceback (most recent call last):
+  File "C:\Users\annan\PycharmProjects\crymbo\crymboFlow_test.py", line 125, in main_flow
+    paymentSettle_response = s.post(paymentSettle_API,
+  File "C:\Users\annan\Python310\lib\site-packages\requests\sessions.py", line 635, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "C:\Users\annan\Python310\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\annan\Python310\lib\site-packages\requests\sessions.py", line 695, in send
+    adapter = self.get_adapter(url=request.url)
+  File "C:\Users\annan\Python310\lib\site-packages\requests\sessions.py", line 792, in get_adapter
+    raise InvalidSchema(f"No connection adapters were found for {url!r}")
+requests.exceptions.InvalidSchema: No connection adapters were found for 'hhttps://crymbo-integ.wallter.com/api/v2/payments/settle'
+2023-05-21 16:21:01,605 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 34
+2023-05-21 16:21:01,605 - INFO - CREDIT Transaction is created
+2023-05-21 16:21:01,605 - INFO - 9RO37N1aMV5WRbWmpnyx
+2023-05-21 16:21:01,606 - INFO - 2.6153357343777306
+2023-05-21 16:21:01,606 - INFO - 0.5987225054164951
+2023-05-21 16:21:01,607 - ERROR - No connection adapters were found for 'hhttps://crymbo-integ.wallter.com/api/v2/payments/settle'
+Traceback (most recent call last):
+  File "C:\Users\annan\PycharmProjects\crymbo\crymboFlow_test.py", line 175, in main_flow
+    paymentSettle_response = s.post(paymentSettle_API,
+  File "C:\Users\annan\Python310\lib\site-packages\requests\sessions.py", line 635, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "C:\Users\annan\Python310\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\annan\Python310\lib\site-packages\requests\sessions.py", line 695, in send
+    adapter = self.get_adapter(url=request.url)
+  File "C:\Users\annan\Python310\lib\site-packages\requests\sessions.py", line 792, in get_adapter
+    raise InvalidSchema(f"No connection adapters were found for {url!r}")
+requests.exceptions.InvalidSchema: No connection adapters were found for 'hhttps://crymbo-integ.wallter.com/api/v2/payments/settle'
+2023-05-21 16:32:50,567 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-21 16:32:51,097 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-21 16:32:51,098 - INFO - Successfully logged in to Wallter!
+2023-05-21 16:32:51,099 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-21 16:32:51,515 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-21 16:32:51,516 - INFO - Successfully redirected to Crymbo!
+2023-05-21 16:32:51,516 - INFO - 0d96e1d7-13c3-4431-badd-8eaa191493be
+2023-05-21 16:32:51,993 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-21 16:32:51,994 - INFO - Successfully logged in to Crymbo!
+2023-05-21 16:32:54,108 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 34
+2023-05-21 16:32:54,109 - INFO - DEBIT Transaction is created
+2023-05-21 16:32:54,109 - INFO - oRkpQJ0dN65WNdLOvE2M
+2023-05-21 16:32:54,109 - INFO - 9.815186747951932
+2023-05-21 16:32:54,109 - INFO - 1.2096750957230475
+2023-05-21 16:32:54,110 - ERROR - No connection adapters were found for 'hhttps://crymbo-integ.wallter.com/api/v2/payments/settle'
+Traceback (most recent call last):
+  File "C:\Users\annan\PycharmProjects\crymbo\crymboFlow_test.py", line 125, in main_flow
+    paymentSettle_response = s.post(paymentSettle_API,
+  File "C:\Users\annan\Python310\lib\site-packages\requests\sessions.py", line 635, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "C:\Users\annan\Python310\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\annan\Python310\lib\site-packages\requests\sessions.py", line 695, in send
+    adapter = self.get_adapter(url=request.url)
+  File "C:\Users\annan\Python310\lib\site-packages\requests\sessions.py", line 792, in get_adapter
+    raise InvalidSchema(f"No connection adapters were found for {url!r}")
+requests.exceptions.InvalidSchema: No connection adapters were found for 'hhttps://crymbo-integ.wallter.com/api/v2/payments/settle'
+2023-05-21 16:32:56,040 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 34
+2023-05-21 16:32:56,040 - INFO - CREDIT Transaction is created
+2023-05-21 16:32:56,040 - INFO - X90Gz3YaO056QbxqlW14
+2023-05-21 16:32:56,040 - INFO - 5.368184256461182
+2023-05-21 16:32:56,040 - INFO - 1.8744681068663986
+2023-05-21 16:32:56,041 - ERROR - No connection adapters were found for 'hhttps://crymbo-integ.wallter.com/api/v2/payments/settle'
+Traceback (most recent call last):
+  File "C:\Users\annan\PycharmProjects\crymbo\crymboFlow_test.py", line 175, in main_flow
+    paymentSettle_response = s.post(paymentSettle_API,
+  File "C:\Users\annan\Python310\lib\site-packages\requests\sessions.py", line 635, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "C:\Users\annan\Python310\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\annan\Python310\lib\site-packages\requests\sessions.py", line 695, in send
+    adapter = self.get_adapter(url=request.url)
+  File "C:\Users\annan\Python310\lib\site-packages\requests\sessions.py", line 792, in get_adapter
+    raise InvalidSchema(f"No connection adapters were found for {url!r}")
+requests.exceptions.InvalidSchema: No connection adapters were found for 'hhttps://crymbo-integ.wallter.com/api/v2/payments/settle'
+2023-05-21 16:33:28,379 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-21 16:33:28,699 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-21 16:33:28,701 - INFO - Successfully logged in to Wallter!
+2023-05-21 16:33:28,704 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-21 16:33:28,881 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-21 16:33:28,882 - INFO - Successfully redirected to Crymbo!
+2023-05-21 16:33:28,882 - INFO - fe737704-2417-4706-9cc8-9b720c2b2990
+2023-05-21 16:33:29,326 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-21 16:33:29,327 - INFO - Successfully logged in to Crymbo!
+2023-05-21 16:33:31,440 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 34
+2023-05-21 16:33:31,441 - INFO - DEBIT Transaction is created
+2023-05-21 16:33:31,441 - INFO - 4o5pmWZdPV5W2aKgRlQ6
+2023-05-21 16:33:31,441 - INFO - 8.935424386059026
+2023-05-21 16:33:31,441 - INFO - 1.533081716169752
+2023-05-21 16:33:32,933 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/settle HTTP/1.1" 200 None
+2023-05-21 16:33:32,933 - INFO - Transaction is completed!
+2023-05-21 16:33:32,934 - INFO - OK00
+2023-05-21 16:33:34,965 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 34
+2023-05-21 16:33:34,966 - INFO - CREDIT Transaction is created
+2023-05-21 16:33:34,966 - INFO - JqAMrlNbW9jBneyg5Kx2
+2023-05-21 16:33:34,966 - INFO - 7.416107829744546
+2023-05-21 16:33:34,966 - INFO - 1.5016816514850235
+2023-05-21 16:33:36,418 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/settle HTTP/1.1" 200 None
+2023-05-21 16:33:36,418 - INFO - Transaction is completed!
+2023-05-21 16:33:36,418 - INFO - OK00
+2023-05-21 16:36:00,489 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-21 16:36:00,936 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-21 16:36:00,939 - INFO - Successfully logged in to Wallter!
+2023-05-21 16:36:00,941 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-21 16:36:01,455 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-21 16:36:01,456 - INFO - Successfully redirected to Crymbo!
+2023-05-21 16:36:01,456 - INFO - f0bd0bc2-0786-499a-b059-af920aaca6b5
+2023-05-21 16:36:01,945 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-21 16:36:01,946 - INFO - Successfully logged in to Crymbo!
+2023-05-21 16:36:02,049 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 403 None
+2023-05-21 16:36:02,049 - INFO - Duplicate payment
+2023-05-21 16:36:02,143 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 403 None
+2023-05-21 16:36:02,144 - INFO - Duplicate payment
+2023-05-21 16:36:32,395 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-21 16:36:32,815 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-21 16:36:32,816 - INFO - Successfully logged in to Wallter!
+2023-05-21 16:36:32,817 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-21 16:36:33,139 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-21 16:36:33,139 - INFO - Successfully redirected to Crymbo!
+2023-05-21 16:36:33,139 - INFO - 9eb20446-7f48-474c-a149-ac92d6273b24
+2023-05-21 16:36:33,419 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-21 16:36:33,420 - INFO - Successfully logged in to Crymbo!
+2023-05-21 16:36:33,514 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 403 None
+2023-05-21 16:36:33,515 - INFO - Duplicate payment
+2023-05-21 16:36:33,629 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 403 None
+2023-05-21 16:36:33,631 - INFO - Duplicate payment
+2023-05-21 16:49:01,817 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-21 16:49:02,261 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-21 16:49:02,263 - INFO - Successfully logged in to Wallter!
+2023-05-21 16:49:02,264 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-21 16:49:02,710 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 500 None
+2023-05-21 16:52:33,374 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-21 16:52:33,920 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-21 16:52:33,921 - INFO - Successfully logged in to Wallter!
+2023-05-21 16:52:33,923 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-21 16:52:34,284 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-21 16:52:34,284 - INFO - Successfully redirected to Crymbo!
+2023-05-21 16:52:34,285 - INFO - 2e3df1fb-b6a4-4b70-a4bc-98cec4321bc8
+2023-05-21 16:52:34,845 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-21 16:52:34,846 - INFO - Successfully logged in to Crymbo!
+2023-05-21 16:52:36,894 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 19
+2023-05-21 16:52:36,894 - INFO - DEBIT Transaction is created
+2023-05-21 16:52:36,894 - INFO - 2065754
+2023-05-21 16:52:36,894 - INFO - 8.300979233131054
+2023-05-21 16:52:36,895 - INFO - 0.7733541578042757
+2023-05-21 16:52:38,781 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/settle HTTP/1.1" 200 None
+2023-05-21 16:52:38,782 - INFO - Transaction is completed!
+2023-05-21 16:52:38,783 - INFO - OK00
+2023-05-21 16:52:40,833 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 19
+2023-05-21 16:52:40,834 - INFO - CREDIT Transaction is created
+2023-05-21 16:52:40,834 - INFO - 2065758
+2023-05-21 16:52:40,834 - INFO - 8.228530516820676
+2023-05-21 16:52:40,834 - INFO - 1.6121433366135594
+2023-05-21 16:52:42,680 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/settle HTTP/1.1" 200 None
+2023-05-21 16:52:42,681 - INFO - Transaction is completed!
+2023-05-21 16:52:42,681 - INFO - OK00
+2023-05-21 16:57:38,149 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-21 16:57:38,628 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-21 16:57:38,629 - INFO - Successfully logged in to Wallter!
+2023-05-21 16:57:38,631 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-21 16:57:38,980 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-21 16:57:38,981 - INFO - Successfully redirected to Crymbo!
+2023-05-21 16:57:38,981 - INFO - 9347e416-f0d4-4beb-9bb3-3805fcecf2d9
+2023-05-21 16:57:39,491 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-21 16:57:39,492 - INFO - Successfully logged in to Crymbo!
+2023-05-21 16:57:41,542 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 19
+2023-05-21 16:57:41,543 - INFO - DEBIT Transaction is created
+2023-05-21 16:57:41,543 - INFO - 2065762
+2023-05-21 16:57:41,543 - INFO - 9.057225603609117
+2023-05-21 16:57:41,543 - INFO - 0.8916020633026525
+2023-05-21 16:57:43,390 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/settle HTTP/1.1" 200 None
+2023-05-21 16:57:43,390 - INFO - Transaction is completed!
+2023-05-21 16:57:43,390 - INFO - OK00
+2023-05-21 16:57:45,330 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 19
+2023-05-21 16:57:45,331 - INFO - CREDIT Transaction is created
+2023-05-21 16:57:45,331 - INFO - 2065766
+2023-05-21 16:57:45,331 - INFO - 3.1556339546854644
+2023-05-21 16:57:45,331 - INFO - 1.6109273417352348
+2023-05-21 16:57:47,183 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/settle HTTP/1.1" 200 None
+2023-05-21 16:57:47,184 - INFO - Transaction is completed!
+2023-05-21 16:57:47,184 - INFO - OK00
+2023-05-21 17:06:10,253 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-21 17:06:10,890 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-21 17:06:10,891 - INFO - Successfully logged in to Wallter!
+2023-05-21 17:06:10,892 - DEBUG - Starting new HTTPS connection (1): api-stage.wallter.com:443
+2023-05-21 17:06:11,295 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-21 17:06:11,296 - INFO - Successfully redirected to Crymbo!
+2023-05-21 17:06:11,296 - INFO - 75b2c287-c920-4ac0-97bf-bce0938698ec
+2023-05-21 17:06:11,920 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-21 17:06:11,920 - INFO - Successfully logged in to Crymbo!
+2023-05-21 17:06:13,337 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 400 82
+2023-05-21 17:06:13,338 - INFO - Duplicate payment
+2023-05-21 17:06:14,631 - DEBUG - https://api-stage.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 400 82
+2023-05-21 17:06:14,632 - INFO - Duplicate payment
+2023-05-22 10:23:58,319 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-22 10:23:58,933 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-22 10:23:58,935 - INFO - Successfully logged in to Wallter!
+2023-05-22 10:23:58,936 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-22 10:23:59,339 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-22 10:23:59,339 - INFO - Successfully redirected to Crymbo!
+2023-05-22 10:23:59,339 - INFO - df3ff34d-70cd-4c95-b2e9-d88a722f085e
+2023-05-22 10:23:59,879 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-22 10:23:59,881 - INFO - Successfully logged in to Crymbo!
+2023-05-22 10:24:02,008 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 19
+2023-05-22 10:24:02,009 - INFO - DEBIT Transaction is created
+2023-05-22 10:24:02,009 - INFO - 2066382
+2023-05-22 10:24:02,009 - INFO - 3.4572686372387342
+2023-05-22 10:24:02,009 - INFO - 0.8027031115752438
+2023-05-22 10:24:03,482 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/settle HTTP/1.1" 200 None
+2023-05-22 10:24:03,482 - INFO - Transaction is completed!
+2023-05-22 10:24:03,482 - INFO - OK00
+2023-05-22 10:24:05,320 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 19
+2023-05-22 10:24:05,320 - INFO - CREDIT Transaction is created
+2023-05-22 10:24:05,321 - INFO - 2066386
+2023-05-22 10:24:05,321 - INFO - 6.475635670430206
+2023-05-22 10:24:05,321 - INFO - 1.8649170267227357
+2023-05-22 10:24:06,849 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/settle HTTP/1.1" 200 None
+2023-05-22 10:24:06,849 - INFO - Transaction is completed!
+2023-05-22 10:24:06,849 - INFO - OK00
+2023-05-22 10:26:22,361 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-22 10:26:22,849 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-22 10:26:22,850 - INFO - Successfully logged in to Wallter!
+2023-05-22 10:26:22,851 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-22 10:26:23,168 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-22 10:26:23,168 - INFO - Successfully redirected to Crymbo!
+2023-05-22 10:26:23,168 - INFO - b1b88544-e396-4af2-b24f-f3389bd2b918
+2023-05-22 10:26:23,630 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-22 10:26:23,630 - INFO - Successfully logged in to Crymbo!
+2023-05-22 10:26:25,686 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 19
+2023-05-22 10:26:25,686 - INFO - DEBIT Transaction is created
+2023-05-22 10:26:25,686 - INFO - 2066390
+2023-05-22 10:26:25,686 - INFO - 8.096219334541862
+2023-05-22 10:26:25,686 - INFO - 0.5047824797553875
+2023-05-22 10:26:27,175 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/settle HTTP/1.1" 200 None
+2023-05-22 10:26:27,175 - INFO - Transaction is completed!
+2023-05-22 10:26:27,175 - INFO - 2066390
+2023-05-22 10:26:27,175 - INFO - OK00
+2023-05-22 10:26:29,139 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 19
+2023-05-22 10:26:29,139 - INFO - CREDIT Transaction is created
+2023-05-22 10:26:29,139 - INFO - 2066394
+2023-05-22 10:26:29,140 - INFO - 1.6415154488931207
+2023-05-22 10:26:29,140 - INFO - 0.6119790428268671
+2023-05-22 10:26:30,598 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/settle HTTP/1.1" 200 None
+2023-05-22 10:26:30,599 - INFO - Transaction is completed!
+2023-05-22 10:26:30,599 - INFO - 2066394
+2023-05-22 10:26:30,599 - INFO - OK00
+2023-05-22 10:39:01,638 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-22 10:39:02,272 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-22 10:39:02,273 - INFO - Successfully logged in to Wallter!
+2023-05-22 10:39:02,274 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-22 10:39:02,673 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-22 10:39:02,674 - INFO - Successfully redirected to Crymbo!
+2023-05-22 10:39:02,674 - INFO - ee71dd02-c031-4869-bb94-eab0c8bf48ce
+2023-05-22 10:39:03,222 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-22 10:39:03,223 - INFO - Successfully logged in to Crymbo!
+2023-05-22 10:39:05,118 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 19
+2023-05-22 10:39:05,119 - INFO - DEBIT Transaction is created
+2023-05-22 10:39:05,119 - INFO - 2066400
+2023-05-22 10:41:05,059 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-22 10:41:05,487 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-22 10:41:05,488 - INFO - Successfully logged in to Wallter!
+2023-05-22 10:41:05,490 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-22 10:41:05,843 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-22 10:41:05,844 - INFO - Successfully redirected to Crymbo!
+2023-05-22 10:41:05,844 - INFO - 5a9e0d9b-6694-48e0-b138-f6decec3f61e
+2023-05-22 10:41:06,367 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-22 10:41:06,368 - INFO - Successfully logged in to Crymbo!
+2023-05-22 10:41:08,340 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 19
+2023-05-22 10:41:08,340 - INFO - DEBIT Transaction is created
+2023-05-22 10:41:08,340 - INFO - 2066401
+2023-05-22 10:41:08,865 - DEBUG - https://crymbo-integ.wallter.com:443 "DELETE /api/v2/payments/2066401 HTTP/1.1" 200 None
+2023-05-22 10:41:08,866 - INFO - DEBIT Transaction is canceled!
+2023-05-22 10:41:08,866 - INFO - 2066401
+2023-05-22 10:41:08,866 - INFO - CANCELED
+2023-05-22 10:41:10,861 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 19
+2023-05-22 10:41:10,861 - INFO - CREDIT Transaction is created
+2023-05-22 10:41:10,861 - INFO - 2066402
+2023-05-22 10:41:11,298 - DEBUG - https://crymbo-integ.wallter.com:443 "DELETE /api/v2/payments/2066402 HTTP/1.1" 200 None
+2023-05-22 10:41:11,298 - INFO - CREDIT Transaction is canceled!
+2023-05-22 10:41:11,298 - INFO - 2066402
+2023-05-22 10:41:11,299 - INFO - CANCELED
+2023-05-22 12:29:36,949 - DEBUG - Starting new HTTPS connection (1): test-wallter.eu.auth0.com:443
+2023-05-22 12:29:37,439 - DEBUG - https://test-wallter.eu.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
+2023-05-22 12:29:37,441 - INFO - Successfully logged in to Wallter!
+2023-05-22 12:29:37,442 - DEBUG - Starting new HTTPS connection (1): crymbo-integ.wallter.com:443
+2023-05-22 12:29:37,847 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/redirect HTTP/1.1" 200 None
+2023-05-22 12:29:37,848 - INFO - Successfully redirected to Crymbo!
+2023-05-22 12:29:37,848 - INFO - 0dad80cf-8b28-495d-982b-abe6b7096463
+2023-05-22 12:29:38,323 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/auth/token HTTP/1.1" 200 None
+2023-05-22 12:29:38,323 - INFO - Successfully logged in to Crymbo!
+2023-05-22 12:29:40,351 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 19
+2023-05-22 12:29:40,352 - INFO - DEBIT Transaction is created
+2023-05-22 12:29:40,352 - INFO - 2066436
+2023-05-22 12:29:40,352 - INFO - 2.407266869381535
+2023-05-22 12:29:40,352 - INFO - 1.0075985702594235
+2023-05-22 12:29:41,824 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/settle HTTP/1.1" 200 None
+2023-05-22 12:29:41,824 - INFO - Transaction is completed!
+2023-05-22 12:29:41,824 - INFO - 2066436
+2023-05-22 12:29:41,824 - INFO - OK00
+2023-05-22 12:29:43,817 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/initiate HTTP/1.1" 201 19
+2023-05-22 12:29:43,817 - INFO - CREDIT Transaction is created
+2023-05-22 12:29:43,817 - INFO - 2066440
+2023-05-22 12:29:43,817 - INFO - 8.257683929323816
+2023-05-22 12:29:43,817 - INFO - 1.4471841914753818
+2023-05-22 12:29:45,255 - DEBUG - https://crymbo-integ.wallter.com:443 "POST /api/v2/payments/settle HTTP/1.1" 200 None
+2023-05-22 12:29:45,255 - INFO - Transaction is completed!
+2023-05-22 12:29:45,255 - INFO - 2066440
+2023-05-22 12:29:45,255 - INFO - OK00
